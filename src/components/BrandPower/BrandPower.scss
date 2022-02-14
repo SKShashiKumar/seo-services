@@ -1,0 +1,31 @@
+$violet : rgb(102,49,225);
+
+.BrandPower{
+    padding: 1% 11%;
+    .MinImg{
+        padding-top: 7%;
+        width: 420px;
+        height: 577px;
+    }
+    .ContentTab{
+        h1{
+            font-size: 3.5rem;
+            font-family: 'Montserrat';
+            color: $violet;
+            font-weight: 600;
+            padding-top: 7%;
+            padding-bottom: 7%;
+        }
+        .ListContent{
+            li{
+                list-style: none;
+                list-style-image: url('https://img.icons8.com/material-two-tone/24/000000/horizontal-line.png');
+                p{
+                    font-family: 'PT Sans';
+                    font-size: 1.2rem;
+                    color: black;
+                }
+            }
+        }
+    }
+}
