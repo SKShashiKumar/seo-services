@@ -1,0 +1,172 @@
+$violet : rgb(102,49,225);
+.ManagementPage{
+    padding: 1% 11%;
+
+    .GoodDesigner{
+        font-size: 1.2rem;
+        padding-left: 10%;
+        color: white;
+    }
+
+    .ContentRow{
+        .row{
+            .col-12{
+                padding:10px 0px;
+            }
+        }
+        .MainHeading{
+            h1{
+                font-family: 'Montserrat';
+                font-size: 2.3rem;
+                font-weight: bold;
+                color: $violet;
+            }
+        }
+        .SubHeading{
+            h6{
+                font-family: 'Open Sans';
+                font-size: 1.2rem;
+                font-weight: 700;
+                line-height: 1.5;
+            }
+        }
+        .Description{
+            p{
+                font-size: 1.2rem;
+            }
+        }
+        .contactUs{
+            font-family: 'PT Sans', sans-serif;
+            border: none;
+            color: $violet;
+            background-color: rgb(248,221,40);
+            text-transform: uppercase;
+            letter-spacing:4px;
+            background-image: none;
+            text-transform: uppercase;
+            font-weight: 700;
+            &:hover{
+                background-color: $violet;
+                color: white;
+            }
+        }
+    }
+    
+    @media screen and (min-width:1199px) {
+        .ManMain{
+            border-radius: 10px;
+            background-color: $violet;
+            margin:0%;
+            padding:2%;
+            .ManImg{
+                text-align: center;
+                margin: 0%;
+                padding:10px 0px;
+                img{
+                    height: 350px;
+                    width: 470px;
+                }
+            }
+        }
+        .contactUs{
+            padding: 4% 12%;
+        }
+    }
+
+    @media screen and (max-width:1199px) {
+        .ManMain{
+            border-radius: 10px;
+            background-color: $violet;
+            margin:0%;
+            padding:2%;
+            .ManImg{
+                text-align: center;
+                margin: 0%;
+                padding:10px 0px;
+                img{
+                    height: 250px;
+                    width: 350px;
+                }
+            }
+        }
+        .contactUs{
+            padding: 4% 12%;
+        }
+
+    }
+
+    @media screen and (max-width:991px) {
+
+        .contactUs{
+            padding: 4% 12%;
+        }
+        .ManMain{
+            border-radius: 10px;
+            background-color: $violet;
+            margin:0%;
+            padding:2%;
+            .ManImg{
+                text-align: center;
+                margin: 0%;
+                padding:10px 0px;
+                img{
+                    height: 200px;
+                    width: 250px;
+                }
+            }
+        }
+        .MainHeading{
+            h1{
+                font-size: 2.5rem !important;
+                font-weight: 600 !important;
+            }
+        }
+        .SubHeading{
+            h6{
+                font-family: 'Open Sans', sans-serif;
+                font-size: 1rem;
+            }
+        }
+    }
+
+    @media screen and (max-width:768px) {
+        .ManMain{
+            .ManImg{
+                img{
+                    height: 250px;
+                    width: 350px;
+                }
+            }
+        }
+        .MainHeading{
+            h1{
+                font-size: 2rem !important;
+                font-weight: 600 !important;
+            }
+        }
+        .SubHeading{
+            h6{
+                font-family: 'Open Sans', sans-serif;
+                font-size: 1rem;
+            }
+        }
+
+        .contactUs{
+            padding: 4% 14%;
+        }
+    }
+
+    @media screen and (max-width:576px) {
+        .ManMain{
+            .ManImg{
+                img{
+                    height: 200px;
+                    width: 250px;
+                }
+            }
+        }
+        .HomePage{
+                padding: 1% 9%;
+        }
+    }
+}
