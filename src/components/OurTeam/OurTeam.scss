@@ -1,0 +1,54 @@
+$violet : rgb(102,49,225);
+.OurTeam{
+    background-color: $violet;
+    .MainHeading{
+        font-size: 3rem;
+        font-family: 'Montserrat';
+        color: white;
+        text-align: center;
+        font-weight: 400;
+    }
+    .SubHeading{
+        font-size: 1.5rem;
+        font-style: italic;
+        font-family: 'Open Sans';
+        color: white;
+        text-align: center;
+        font-weight: 200;
+        // word-spacing: 5px;
+        letter-spacing: 1px;
+    }
+    .CardsContainer{
+        padding: 1% 10%;
+        .cards{
+            background-color: rgb(255, 255, 255);
+            padding: 30px 30px 50px 30px;
+            // position: relative;
+            border-radius: 5%;
+            .row{
+                .Cardname{
+
+                }
+                .CardHeading{
+                    padding: 20px 20px 0px 20px;
+                    h6{
+                        font-family: 'Raleway', sans-serif;
+                        color: $violet;
+                        font-size: 1.2rem;
+                        font-weight: 700;
+                        line-height: 1.6;
+                    }
+                }
+                .CardDesc{
+                    p{
+                        font-size: 1.1rem;
+                        font-family: 'Open Sans';
+                        line-height: 1.6;
+                        color: #4f436d !important;
+                    }
+                }
+            }
+
+        }
+    }
+}

@@ -5,6 +5,7 @@ import Footer from './components/Footer';
 import Header from './components/Header'
 import HomePage from './components/HomePage';
 import ManagementPage from './components/ManagementPage';
+import OurTeam from './components/OurTeam';
 function App() {
   return (
     <div>
@@ -13,6 +14,7 @@ function App() {
       <ManagementPage/>
       <DevelopmentServices/>
       <BrandPower/>
+      <OurTeam/>
       <Footer/>
     </div>
   );
