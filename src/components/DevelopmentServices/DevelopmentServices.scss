@@ -1,4 +1,5 @@
 $violet : rgb(102,49,225);
+
 .DevelopmentServices{
     background-color: $violet;
     .MainHeading{
@@ -18,7 +19,6 @@ $violet : rgb(102,49,225);
             font-size: 1.2rem;
 
         }
-
     }
     .CardsContainer{
         padding: 1% 10%;
@@ -66,4 +66,53 @@ $violet : rgb(102,49,225);
 
         }
     }
+    @media screen and (max-width:1199px) {
+    .MainHeading{
+        h1{
+            font-size: 3.5rem;
+        }
+    }
+    }
+
+    @media screen and (max-width:991px) {
+    .MainHeading{
+        h1{
+            font-size: 3rem !important;
+        }
+    }
+    .SubHeading{
+        h6{
+            font-size: 1.2rem;
+
+        }
+    }
+    }
+
+    @media screen and (max-width:767px) {
+    .MainHeading{
+        h1{
+            font-size: 2.5rem !important;
+        }
+    }
+    .SubHeading{
+        h6{
+            font-size: 1.2rem;
+        }
+        padding-bottom: 50px;
+    }
+}
+
+    @media screen and (max-width:576px) {
+    .MainHeading{
+        h1{
+            font-size: 2.5rem !important;
+        }
+    }
+    .SubHeading{
+        h6{
+            font-size: 1rem;
+        }
+    }
+  }
+
 }

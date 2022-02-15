@@ -1,0 +1,102 @@
+$violet : rgb(102,49,225);
+
+
+.BoardMembers{
+    background-color: $violet;
+    // color: white;
+    .CardsContainer{
+        padding: 1% 10%;
+        .cards{
+            background-color: rgb(255, 255, 255);
+            padding: 5% 10%;
+            border-radius: 5%;
+            
+            .row{
+                .Cardname{
+                    h5{
+                        font-family: 'Open Sans', sans-serif;
+                        font-weight: 700;
+                        font-size: 1.2rem;
+                    }
+                }
+                .web{
+                    padding-top: 60px ;
+                    img{
+                        height: 70px;
+                        width: 70px;
+                    }
+                }
+                .CardHeading{
+                    padding: 20px 5px 0px 5px;
+                    h6{
+                        font-family: 'Montserrat', sans-serif;
+                        // color: $violet;
+                        font-size: 1rem;
+                        font-weight: 400;
+                        line-height: 1.6;
+                    }
+                }
+                .CardDesc{
+                    p{
+                        // font-style: italic;
+                        font-size: 1.2rem;
+                        font-family: 'Open Sans', sans-serif;
+                        line-height: 1.5;
+                        color: rgb(80, 78, 78) !important;
+                        font-weight: 300    ;
+                    }
+                }
+            }
+        }
+
+        .Top-30{
+            padding-top: 20%;
+        }
+        @media screen and (max-width:1199px) {
+            .web{
+                img{
+                    height: 70px !important;
+                    width: 70px !important;
+                }
+            }
+        }
+      }
+        @media screen and (max-width:1199px) {
+                .MainHeading{
+                    font-size: 3rem;
+                }
+                .SubHeading{
+                    font-size: 1.5rem;
+                }
+        }
+
+        @media screen and (max-width:991px) {            
+                .Top-30{
+                    padding-top: 0% !important;
+                }
+                .MainHeading{
+                    font-size: 3rem;
+                }
+                .SubHeading{
+                    font-size: 1.5rem;
+                }
+        }
+
+        @media screen and (max-width:767px) {
+                .MainHeading{
+                    font-size: 2.5rem !important;
+                }
+                .SubHeading{
+                    font-size: 1.5rem !important;
+                }
+        }
+
+        @media screen and (max-width:576px) {
+                .MainHeading{
+                    font-size: 2rem !important;
+                }
+                .SubHeading{
+                    font-size: 1.1rem !important;
+                }
+        }
+}

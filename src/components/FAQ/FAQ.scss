@@ -1,0 +1,49 @@
+$violet : rgb(102,49,225);
+
+.FAQ{
+    padding:5% 3% 3% 3%;
+    text-align: center;
+    .MainHeading{
+        h1{
+            font-family: 'Montserrat','monospace';
+            color: $violet;
+            font-weight:600;
+        }
+    }
+    .Collapse{
+        padding: 1% 10%;
+        .contents{
+            background-color: gold;
+            padding: 10px 20px 10px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-radius: 10px;
+            p{
+                font-family: 'PT Sans';
+                font-size: 1.1rem;
+                font-weight: 600;
+                color: $violet;
+            }
+            &:hover, &:active{
+                background-color: $violet;
+                color: white;
+                p{
+                    color: white;
+                }
+            }
+
+        }
+        .FirstAnswer{
+            p{
+                font-family: 'Open Sans';
+                font-size: 1.1rem;
+                text-align: left;
+                padding: 10px;
+                // font-weight: 600;
+                // color: $violet;
+            }
+        }
+
+    }
+}

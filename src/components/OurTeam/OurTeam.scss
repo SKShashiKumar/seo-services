@@ -2,6 +2,7 @@ $violet : rgb(102,49,225);
 .OurTeam{
     background-color: $violet;
     .MainHeading{
+        padding-top: 50px;
         font-size: 3rem;
         font-family: 'Montserrat';
         color: white;
@@ -23,14 +24,24 @@ $violet : rgb(102,49,225);
         .cards{
             background-color: rgb(255, 255, 255);
             padding: 30px 30px 50px 30px;
-            // position: relative;
             border-radius: 5%;
+            
             .row{
                 .Cardname{
-
+                    h5{
+                        font-family: 'Oswald', sans-serif;
+                        font-weight: 500;
+                        font-size: 1.5rem;
+                    }
+                }
+                .web{
+                    img{
+                        height: 150px;
+                        width: 150px;
+                    }
                 }
                 .CardHeading{
-                    padding: 20px 20px 0px 20px;
+                    padding: 20px 5px 0px 5px;
                     h6{
                         font-family: 'Raleway', sans-serif;
                         color: $violet;
@@ -41,14 +52,89 @@ $violet : rgb(102,49,225);
                 }
                 .CardDesc{
                     p{
+                        font-style: italic;
                         font-size: 1.1rem;
                         font-family: 'Open Sans';
                         line-height: 1.6;
-                        color: #4f436d !important;
+                        color: black !important;
+                    }
+                }
+                .CardIcons{
+                    .fa-brands{
+                        font-size: 20px;
+                        padding: 10px;
+                        color: $violet;
                     }
                 }
             }
 
         }
+        @media screen and (max-width:1199px) {
+            .web{
+                img{
+                    height: 120px !important;
+                    width: 120px !important;
+                }
+            }
+        }
+        @media screen and (max-width:991px) {
+            .web{
+                img{
+                    height: 150px !important;
+                    width: 150px !important;
+                }
+            }
+        }
+        @media screen and (max-width:767px) {
+            .web{
+                img{
+                    height: 200px !important;
+                    width: 200px !important;
+                }
+            }
+        }
+        @media screen and (max-width:576px) {
+            .web{
+                img{
+                    height: 150px !important;
+                    width: 150px !important;
+                }
+            }
+        }
     }
+        @media screen and (max-width:1199px) {
+                .MainHeading{
+                    font-size: 3rem;
+                }
+                .SubHeading{
+                    font-size: 1.5rem;
+                }
+        }
+
+        @media screen and (max-width:991px) {
+                .MainHeading{
+                    font-size: 3rem;
+                }
+                .SubHeading{
+                    font-size: 1.5rem;
+                }
+        }
+
+        @media screen and (max-width:767px) {
+                .MainHeading{
+                    font-size: 2.5rem !important;
+                }
+                .SubHeading{
+                    font-size: 1.5rem !important;
+                }
+        }
+
+        @media screen and (max-width:576px) {
+                .MainHeading{
+                    font-size: 2rem !important;
+                }
+                .SubHeading{
+                    font-size: 1.1rem !important;
+                }
+        }
 }

@@ -28,4 +28,61 @@ $violet : rgb(102,49,225);
             }
         }
     }
+    @media screen and (max-width:1199px) {
+            .MinImg{
+                width: 420px !important;
+                height: 577px !important;
+            }
+    }
+    @media screen and (max-width:991px) {
+        .ContentTab{
+            h1{
+                font-size: 3rem;
+            }
+        }
+            .MinImg{
+                width: 370px !important;
+                height: 527px !important;
+            }
+    }
+    @media screen and (max-width:767px) {
+        .ContentTab{
+            h1{
+                font-size: 2.5rem;
+            }
+        }
+            .MinImg{
+                width: 370px !important;
+                height: 527px !important;
+            }
+            .ListContent{
+                li{
+                    p{
+                        font-family: 'PT Sans';
+                        font-size: 1rem;
+                        color: black;
+                    }
+                }
+            }
+    }
+    @media screen and (max-width:576px) {
+        .ContentTab{
+            h1{
+                font-size: 2rem;
+            }
+        }
+            .MinImg{
+                width: 320px !important;
+                height: 457px !important;
+            }
+            .ListContent{
+                li{
+                    p{
+                        font-family: 'PT Sans';
+                        font-size: 0.9rem;
+                        color: black;
+                    }
+                }
+            }
+    }
 }

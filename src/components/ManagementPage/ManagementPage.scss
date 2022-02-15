@@ -124,7 +124,7 @@ $violet : rgb(102,49,225);
         .SubHeading{
             h6{
                 font-family: 'Open Sans', sans-serif;
-                font-size: 1rem;
+                font-size: 1rem !important;
             }
         }
     }
@@ -140,7 +140,7 @@ $violet : rgb(102,49,225);
         }
         .MainHeading{
             h1{
-                font-size: 2rem !important;
+                font-size: 1.5rem !important;
                 font-weight: 600 !important;
             }
         }
